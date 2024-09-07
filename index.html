@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <h2 class="nav-logo">TODO APP</h2>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <!-- TODO CONTAINER -->
+    <div class="container">
+        <h1>TODO LIST</h1>
+        <form id="taskForm">
+            <input type="text" id="taskInput" placeholder="Enter task...">
+            <button type="submit">Add Task</button>
+        </form>
+
+        <p class="task-list-header">List of Tasks
+            <button id="toggleTasksButton" class="toggle-btn">Show</button>
+        </p>
+
+        <p id="emptyMessage">The list is empty.</p>
+
+        <ul id="taskList" class="hidden"></ul>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <small>TODO Free App | 2024 &#169; by Shirish Londhe</small>
+    </footer>
+
+    <!-- SCRIPT -->
+    <script src="script.js"></script>
+</body>
+
+</html>
